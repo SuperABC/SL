@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Shader language framework</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="960" height="540">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <p>添加模型:
+    <input id="model" type="file" onchange="handleFiles(this.files)"/>
+    </p>
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix.js"></script>
+    <script src="slf.js"></script>
+  </body>
+</html>
