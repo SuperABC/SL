@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Shader language framework</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
   </head>
 
   <body onload="main()">
@@ -10,12 +11,18 @@
     Please use a browser that supports "canvas"
     </canvas>
     <p>添加模型:
-    <input id="model" type="file" onchange="handleFiles(this.files)"/>
+    <input id="model" type="file" multiple="true" onchange="handleFiles(this.files)"/>
+    <select id="ls">
+      <option>纯色</option>
+      <option>纹理</option>
+      <option>光照</option>
+    </select>
     </p>
     <script src="lib/webgl-utils.js"></script>
     <script src="lib/webgl-debug.js"></script>
     <script src="lib/cuon-utils.js"></script>
     <script src="lib/cuon-matrix.js"></script>
+    <script src="macro.js"></script>
     <script src="slf.js"></script>
   </body>
 </html>
