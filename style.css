@@ -1,0 +1,26 @@
+body {
+  background-color: #CCC
+}
+canvas {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+p {
+  position: absolute;
+  top: 532px;
+  font-size: 24px;
+  font-family: Microsoft YaHei;
+}
+input {
+  position: relative;
+  top: 0px;
+  font-size: 21px;
+  font-family: Microsoft YaHei;
+}
+select {
+  position: relative;
+  top: -1px;
+  font-size: 20px;
+  font-family: Microsoft YaHei;
+}
